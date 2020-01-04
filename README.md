@@ -30,11 +30,6 @@ getters
 1) 包含多个getter计算属性函数的对象
 2) 谁来读取: 组件中: $store.getters.xxx
 
-modules
-1) 包含多个 module
-2) 一个 module 是一个 store 的配置对象
-3) 与一个组件(包含有共享数据)对应
-
 store 对象
 1) 所有用 vuex 管理的组件中都多了一个属性$store, 它就是一个 store 对象(该对象有2个属性、1个方法)
 2) 属性:
