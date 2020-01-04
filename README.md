@@ -1,6 +1,18 @@
-vuex图
+组件间通信
 
-<img src="C:\Users\Clare\AppData\Roaming\Typora\typora-user-images\image-20200102113438789.png" alt="image-20200102113438789" style="zoom:80%;" />
+vue 组件间通信基本原则:
+1) 不要在子组件中直接修改父组件的状态数据
+2) 数据在哪, 更新数据的行为(函数)就应该定义在哪
+
+vue 组件间通信方式:
+1) props
+2) vue 的自定义事件
+3) 消息订阅与发布(使用 pubsub 库)
+4) slot
+5) vuex
+
+以下是对vuex的详细解读
+
 state
 1) vuex 管理的状态对象(data)
 2) 它应该是唯一的
@@ -31,28 +43,7 @@ store 对象
 3) 方法:
 				dispatch(actionName, data): 触发action
 
-![image-20200102164258746](C:\Users\Clare\AppData\Roaming\Typora\typora-user-images\image-20200102164258746.png)
 
 
 
-难点一：组件间通信
-
-vue 组件间通信基本原则:
-1) 不要在子组件中直接修改父组件的状态数据
-2) 数据在哪, 更新数据的行为(函数)就应该定义在哪
-
-vue 组件间通信方式:
-1) props
-2) vue 的自定义事件
-3) 消息订阅与发布(使用 pubsub 库)
-4) slot
-5) vuex
-
-难点二：自定义指令、自定义插件
-
-难点三：路由
-
-难点四：过滤器
-
-难点五：计算属性与监视
 
