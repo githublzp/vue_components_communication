@@ -1,8 +1,9 @@
-学习各个src时，<br/>
-1.先把src后面的'-文字说明'删除，只留src<br/>
-2.运行npm install安装包<br/>
-3.运行npm run serve<br/>
-注意：每次运行代码，应该保证根目录下永远只有一个src目录<br/>
+```
+学习各个src时，
+1.先把src后面的'-文字说明'删除，只留src
+2.运行npm install安装包
+3.运行npm run serve
+注意：每次运行代码，应该保证根目录下永远只有一个src目录
 
 组件间通信
 
@@ -39,12 +40,14 @@ getters
 store 对象
 1) 所有用 vuex 管理的组件中都多了一个属性$store, 它就是一个 store 对象(该对象有2个属性、1个方法)
 2) 属性:
-				state: 注册的 state 对象
-				getters: 注册的 getters 对象
+	state: 注册的 state 对象
+	getters: 注册的 getters 对象
 3) 方法:
-				dispatch(actionName, data): 触发action
+	dispatch(actionName, data): 触发action
 
 
 
 
 
+
+```
